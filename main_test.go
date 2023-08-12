@@ -13,7 +13,7 @@ func TestCountWords(t *testing.T) {
 
     res := count(b, false, false)
 
-    if (res != exp) {
+    if res != exp {
         t.Errorf("Expected %d, got %d instead.\n", exp, res)
     }
 }
@@ -24,7 +24,7 @@ func TestCountLines(t *testing.T) {
 
     res := count(b, true, false)
 
-    if (res != exp) {
+    if res != exp {
         t.Errorf("Expected %d, got %d instead.\n", exp, res)
     }
 }
@@ -35,7 +35,9 @@ func TestCountBytes(t *testing.T) {
 
     res := count(b, false, true)
 
-    if (res != exp) {
+    if res != exp {
         t.Errorf("Expected %d, got %d instead.\n", exp, res)
     }
 }
+
+
