@@ -1,6 +1,4 @@
-# Words 
-![go workflow](https://github.com/elusive/words/actions/workflows/go.yml/badge.svg)
-
+# Words    ![go workflow](https://github.com/elusive/words/actions/workflows/go.yml/badge.svg)
 Simple command line utility to count STDIN by line, word, or byte.
 
 ## Overview
